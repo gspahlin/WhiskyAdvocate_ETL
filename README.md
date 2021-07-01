@@ -24,7 +24,7 @@ SQLalchemy library of Python.
     <br> Questions: What are the top 5 whiskies for each reviewer?, What types of whiskey does each reviewer review most often? What are the top 5 whiskies in several
       price ranges? What are the the top whiskies in some common whiskey categories. 
 
-2)Develop an ML function (probably with a clustering method) that can identify several good whiskies similar to a selected whiskey to generate recommendations. 
+2) Develop an ML function (probably with a clustering method) that can identify several good whiskies similar to a selected whiskey to generate recommendations. 
       <br> - I'm currently looking at this as a regression problem. I will ask users to give scores to different whiskies. This will be used as training data for
       a regression model that predicts score in the rest of the data. The regression model can then predict scores in the full dataset, and sort the whiskeys
       by predicted scores. The top predicted scores can then be returned as recommendations. NLP vectors and prices can be used as features (maybe also abv
