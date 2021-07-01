@@ -26,9 +26,9 @@ SQLalchemy library of Python.
 
 2)Develop an ML function (probably with a clustering method) that can identify several good whiskies similar to a selected whiskey to generate recommendations. 
       <br> - I'm currently looking at this as a regression problem. I will ask users to give scores to different whiskies. This will be used as training data for
-      <br>   a regression model that predicts score in the rest of the data. The regression model can then predict scores in the full dataset, and sort the whiskeys
-      <br>   by predicted scores. The top predicted scores can then be returned as recommendations. NLP vectors and prices can be used as features (maybe also abv
-      <br>   values).
+      a regression model that predicts score in the rest of the data. The regression model can then predict scores in the full dataset, and sort the whiskeys
+      by predicted scores. The top predicted scores can then be returned as recommendations. NLP vectors and prices can be used as features (maybe also abv
+      values).
 
 3) Possibly write a flask API (and host on Heroku) that retrieves whiskies with certain characteristics, within a certain price range. May also need javascript for
    web implementation.
