@@ -5,7 +5,7 @@ Project outline:
 This is my set of objectives for this project. Currently in the beginning stages of getting it together.
 
 Goals:<br>
-<strike>1) write a script to gather data from Whiskey Advocate - the script should be able to compile data from the whole site and compile into a dataset</strike>
+1) <strike>write a script to gather data from Whiskey Advocate - the script should be able to compile data from the whole site and compile into a dataset</strike>
 
 Goal 1 complete. 
 
