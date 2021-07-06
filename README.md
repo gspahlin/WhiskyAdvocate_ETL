@@ -21,7 +21,7 @@ Goal 3 complete
       
 4) compile the data using an SQL database in postgreSQL. Ideally this can be done as a pipeline that automates insertion into the database, possibly using the
 SQLalchemy library of Python.
-    <br>  - produce an erd and design a well constructed relational database for the information
+    <br>  -<strike> produce an erd and design a well constructed relational database for the information </strike>
     <br>  - use SQL queries to answer some questions about specific whiskies and put screenshots into a folder:
     <br> Questions: What are the top 5 whiskies for each reviewer?, What types of whiskey does each reviewer review most often? What are the top 5 whiskies in several
       price ranges? What are the the top whiskies in some common whiskey categories. 
