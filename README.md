@@ -13,9 +13,9 @@ Goal 1 complete.
 
 Goal 2 complete (unless I think of other stuff to do here later)
 
-3) Use basic NLP to look at reviews and try to find important keywords for ML recommendation models. 
+3) <strike>Use basic NLP to look at reviews and try to find important keywords for ML recommendation models. 
    <br>   - Process the reviews by removing stop words, and using lemmitization to address conjugation
-   <br>   - vecorize using something like a bag of words model so that the reviews can be parsed by an ML model
+   <br>   - vecorize using something like a bag of words model so that the reviews can be parsed by an ML model</strike>
       
 4) compile the data using an SQL database in postgreSQL. Ideally this can be done as a pipeline that automates insertion into the database, possibly using the
 SQLalchemy library of Python.
