@@ -35,6 +35,6 @@ queries to test the database and provide some answers to basic questions. The ta
  <br><br>
  screenshots/ - contains snapshots of my notebooks for this readme
  <br><br>
- Gregory W. Spahlinger<br>   
- gspahlin@gmail.com<br>    
+ Gregory W. Spahlinger   
+ gspahlin@gmail.com    
  <a href = 'https://www.linkedin.com/in/gregory-spahlinger/'>LinkedIn</a>
