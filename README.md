@@ -16,6 +16,7 @@ The ERD for my WhiskyAdvocate Database
  did the majority of basic cleaning operations for the data. 
  <br><br>
  <img src= 'https://github.com/gspahlin/WhiskyAdvocate_ETL/blob/master/screenshots/scraping_function.jpg'>
+ <br>
  A snapshot of the function I wrote to scrape data from WhiskyAdvocate.com
  <br><br>
 <b> whiskey_explore_clean_load.ipynb </b> - This notebook reads in my semi-finished dataset from the first notebook in .csv form. I then do some basic descriptive 
@@ -24,12 +25,14 @@ instances of those words for ML use. This can also be helpful for querying based
 Psycopg2 and SQLAlchemy to insert my dataframes into PostgreSQL.
  <br><br>
  <img src= 'https://github.com/gspahlin/WhiskyAdvocate_ETL/blob/master/screenshots/whiskey_hexbin.jpg'>
+ <br>
  Some data visualization showing the relationship of the price and score given to each whiskey. 
  <br><br>
- <b>whiskey_queries_and_analysis.ipynb</b> - I use psycopg2 to connect to my database, and then run various SQL Queries on the database for testing and exploration purposes.
- Some of the queries results are visualized after the fact. 
+ <b>whiskey_queries_and_analysis.ipynb</b> - I use psycopg2 to connect to my database, and then run various SQL Queries on the database for testing and exploration
+ purposes. Some of the queries results are visualized after the fact. 
  <br><br>
  <img src= 'https://github.com/gspahlin/WhiskyAdvocate_ETL/blob/master/screenshots/SQL_example.jpg'>
+ <br>
  An example of a SQL query executed on my database with Psycopg2
  <br><br>
  <b>clean_whiskey_data2.csv</b> - This is the dataset produced by the initial scrape-and-clean notebook
