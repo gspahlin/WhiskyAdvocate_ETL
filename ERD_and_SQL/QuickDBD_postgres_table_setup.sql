@@ -5,11 +5,11 @@
 CREATE TABLE "whiskey_stats" (
     "whiskey_id" INT   NOT NULL,
     "category_id" INT   NOT NULL,
-    "Name" VARCHAR(100)   NOT NULL,
-    "Score" INT   NOT NULL,
-    "Price_USD" FLOAT   NOT NULL,
-    "Sale_volume" VARCHAR(10)   NOT NULL,
-    "Percent_ABV" FLOAT   NOT NULL,
+    "name" TEXT   NOT NULL,
+    "score" INT   NOT NULL,
+    "price_usd" FLOAT   NOT NULL,
+    "sale_volume" TEXT   NOT NULL,
+    "percent_abv" FLOAT   NOT NULL,
     CONSTRAINT "pk_whiskey_stats" PRIMARY KEY (
         "whiskey_id"
      )
@@ -18,12 +18,12 @@ CREATE TABLE "whiskey_stats" (
 CREATE TABLE "reviews" (
     "whiskey_id" INT   NOT NULL,
     "author_id" INT   NOT NULL,
-    "Review" MEDIUMTEXT   NOT NULL
+    "Review" TEXT   NOT NULL
 );
 
 CREATE TABLE "authors" (
     "author_id" INT   NOT NULL,
-    "Author" VARCHAR(25)   NOT NULL,
+    "author" TEXT   NOT NULL,
     CONSTRAINT "pk_authors" PRIMARY KEY (
         "author_id"
      )
@@ -31,7 +31,7 @@ CREATE TABLE "authors" (
 
 CREATE TABLE "categories" (
     "category_id" INT   NOT NULL,
-    "category" VARCHAR(25)   NOT NULL,
+    "category" TEXT   NOT NULL,
     CONSTRAINT "pk_categories" PRIMARY KEY (
         "category_id"
      )
