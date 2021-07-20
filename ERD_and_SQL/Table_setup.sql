@@ -11,15 +11,24 @@ DROP TABLE IF EXISTS "whiskey_stats";
 DROP TABLE IF EXISTS "categories";
 
 -- Table setup
+-- issue with this table on import - will upload with whiskey id, trying other numeric fields
+-- working fields: score, 
+-- non-working fields: Price_USD (checked should not be memory issue for datatype), 
+-- Sale_volume, 
+-- Percent_ABV has null values fails anyway even if they aren't null
+-- Name fails even when text data type is used, and when not null is dropped (I don't think there are nulls though)
+-- changing the values of price_usd to 1000 and decapitalizing the hearders still didn't work. could the issue be the number of colums?
+-- I haven't gotten a table in with more than two columns, but the ones with two have all been fine
+-- price_usd still failed when it was one of two columns and all its values were set to 1000
 
 CREATE TABLE "whiskey_stats" (
     "whiskey_id" BIGINT   NOT NULL,
     "category_id" INT   NOT NULL,
-    "Name" VARCHAR(10000)   NOT NULL,
+    "Name" VARCHAR(500)   NOT NULL,
     "Score" INT   NOT NULL,
     "Price_USD" BIGINT   NOT NULL,
     "Sale_volume" VARCHAR(100)   NOT NULL,
-    "Percent_ABV" FLOAT8  NOT NULL,
+    "Percent_ABV" FLOAT  NOT NULL,
     CONSTRAINT "pk_whiskey_stats" PRIMARY KEY (
         "whiskey_id"
      )
@@ -28,7 +37,7 @@ CREATE TABLE "whiskey_stats" (
 CREATE TABLE "reviews" (
     "whiskey_id" INT   NOT NULL,
     "author_id" INT   NOT NULL,
-    "Review" VARCHAR(10000)   NOT NULL
+    "Review" TEXT   NOT NULL
 );
 
 CREATE TABLE "authors" (
