@@ -43,7 +43,7 @@ Psycopg2 and SQLAlchemy to insert my dataframes into PostgreSQL.
  <b>ERD_and_SQL/</b> - Contains an ERD that I created to organize my database using QuickDBD, and SQL setup commands for PostgreSQL that are from QuickDBD. I revised
  these manually after some minor polish to the ERD. 
  <br><br>
- <b>screenshots/</b> - contains snapshots of my notebooks for this readme
+ <b>screenshots/</b> - Contains snapshots of my notebooks for this readme
  <br><br>
  Gregory W. Spahlinger   
  gspahlin@gmail.com    
