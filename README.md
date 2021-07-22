@@ -12,8 +12,8 @@ The ERD for my WhiskyAdvocate Database
  <br><br>    
  <b>Files and Folders:</b>
  <br><br>
- whiskey_scrape_and_clean.ipynb - This file contains a script to scrape data from whiskyadvocate.com using the BeautifulSoup library of Python. This is also where I 
- did the majority of basic cleaning operations for the data. 
+ <b>whiskey_scrape_and_clean.ipynb</b> - This file contains a script to scrape data from whiskyadvocate.com using the BeautifulSoup library of Python. This is also 
+ where I  did the majority of basic cleaning operations for the data. 
  <br><br>
  <img src= 'https://github.com/gspahlin/WhiskyAdvocate_ETL/blob/master/screenshots/scraping_function.jpg'>
  <br>
