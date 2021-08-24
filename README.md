@@ -2,7 +2,7 @@
 Scraping Data on Whiskey from Whiskey Advocate 
 <br><br>
 The goal of this project was to use WhiskyAdvocate.com to compile data on whiskey (I habitually prefer the Irish spelling, which contains the letter 'e') from 
-whiskyadvocate.com. My eventual goal is to use machine learning to provide whisky recommendations via an app using this data. The proximate goal of this project is 
+whiskyadvocate.com. My eventual goal is to use machine learning to provide whisky recommendations via an app using this data. The proximate goal of this project was 
 to scrape the data from whiskyadvocate, clean the data, use natural language processing to vectorize review language for ML consumption, and load all the data into a 
 relational database using Python and PostgreSQL. While I was occupying myself with this, I also did some basic analysis and exploration, including at the end using
 SQL queries to test the database and provide some answers to basic questions. The tables for my dataset are available in this repository in .csv format. 
@@ -12,8 +12,8 @@ The ERD for my WhiskyAdvocate Database
  <br><br>    
  <b>Files and Folders:</b>
  <br><br>
- whiskey_scrape_and_clean.ipynb - This file contains a script to scrape data from whiskyadvocate.com using the BeautifulSoup library of Python. This is also where I 
- did the majority of basic cleaning operations for the data. 
+ <b>whiskey_scrape_and_clean.ipynb</b> - This file contains a script to scrape data from whiskyadvocate.com using the BeautifulSoup library of Python. This is also 
+ where I  did the majority of basic cleaning operations for the data. 
  <br><br>
  <img src= 'https://github.com/gspahlin/WhiskyAdvocate_ETL/blob/master/screenshots/scraping_function.jpg'>
  <br>
