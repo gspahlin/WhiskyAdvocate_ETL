@@ -7,8 +7,8 @@ to scrape the data from whiskyadvocate, clean the data, use natural language pro
 relational database using Python and PostgreSQL. While I was occupying myself with this, I also did some basic analysis and exploration, including at the end using
 SQL queries to test the database and provide some answers to basic questions. The tables for my dataset are available in this repository in .csv format. 
 <br><br>
-<img src= 'https://github.com/gspahlin/WhiskyAdvocate_ETL/blob/master/ERD_and_SQL/Whiskey_ERD.jpg'>
-The ERD for my WhiskyAdvocate Database
+<img src= 'https://github.com/gspahlin/WhiskyAdvocate_ETL/blob/master/ERD_and_SQL/Whiskey_ERD_1.jpg'>
+The ERD for my WhiskyAdvocate Database. ERD has been updated to include fields that were generated in feature reviion, and the clustering analysis of this data.
  <br><br>    
  <b>Files and Folders:</b>
  <br><br>
